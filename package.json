@@ -1,0 +1,22 @@
+{
+  "name": "craigbot",
+  "version": "1.0.0",
+  "description": "A prototype library to scrape global craigslist posts.",
+  "main": "craigbot.js",
+  "dependencies": {
+    "co": "^4.6.0",
+    "craigslist-utils": "^0.0.7",
+    "file-type": "^3.9.0",
+    "node-fetch": "^1.6.3",
+    "node-craigslist": "^1.1.0",
+    "redis": "^2.6.3",
+    "resumer": "^0.0.0",
+    "sleep": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "anthony gagliardo",
+  "license": "MIT"
+}
