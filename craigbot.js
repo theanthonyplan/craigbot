@@ -1,7 +1,7 @@
 var redis = require('redis');                                   // Get Redis
 var sub = redis.createClient(), pub = redis.createClient();     // Get pub and sub objects
 var sleep = require('sleep').sleep;                             // So we don't uberspawn
-var SLEEP_DURATION = 2;                                         // Number of seconds to sleep
+var SLEEP_DURATION = 5;                                         // Number of seconds to sleep
 
                                                                 // Initialize some parameters for later:
 var category = 'jjj';                                           // Set as default for now, pass to argv(todo)
