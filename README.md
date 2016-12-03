@@ -3,7 +3,7 @@ first branch of the global craigslist fetch service.
 
 ## Installation
 
-### First off you will need to make sure you have redist installed and running.
+### First off you will need to make sure you have redis installed and running.
 *Install the redis-server*
 
     $ sudo apt-get install redis-server
